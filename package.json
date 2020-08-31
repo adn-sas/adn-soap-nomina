@@ -1,11 +1,11 @@
 {
-  "name": "@YOSOFT/adn-soap",
+  "name": "@adn-sas/adn-soap",
   "version": "0.33.0",
   "description": "A minimal node SOAP client",
   "engines": {
     "node": ">=4.0.0"
   },
-  "author": "Julio Ramirez <julio.ramirez@yosoft.com.co>",
+  "author": "Julio Ramirez <jramirez@tinformatica.com>",
   "dependencies": {
     "bluebird": "^3.5.0",
     "concat-stream": "^2.0.0",
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOSOFT/adn-soap.git"
+    "url": "https://github.com/adn-sas/adn-soap.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "bin": {
-    "node": "./index.js"
+    "build": "./index.js"
   },
   "main": "./index.js",
   "types": "./lib/soap.d.ts",
