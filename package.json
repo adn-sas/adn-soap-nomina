@@ -1,5 +1,5 @@
 {
-  "name": "@yosoft/adn-soap",
+  "name": "@adn-sas/adn-soap",
   "version": "0.34.0",
   "description": "Facturacion Electronica",
   "engines": {
