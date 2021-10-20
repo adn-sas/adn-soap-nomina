@@ -1,11 +1,11 @@
 {
-  "name": "@adn-sas/adn-soap",
-  "version": "0.33.0",
-  "description": "A minimal node SOAP client",
+  "name": "@yosoft/adn-soap",
+  "version": "0.34.0",
+  "description": "Facturacion Electronica",
   "engines": {
     "node": ">=4.0.0"
   },
-  "author": "Julio Ramirez <jramirez@tinformatica.com>",
+  "author": "Julio Ramirez <julio.ramirez@yosoft.com.co>",
   "dependencies": {
     "bluebird": "^3.5.0",
     "concat-stream": "^2.0.0",
@@ -21,13 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adn-sas/adn-soap.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "url": "git+https://github.com/adn-sas/adn-soap.git"
   },
   "bin": {
-    "build": "./index.js"
+    "build": "index.js"
   },
   "main": "./index.js",
   "types": "./lib/soap.d.ts",
@@ -51,13 +48,17 @@
     "soap"
   ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adn-sas/adn-soap/issues"
+  },
+  "homepage": "https://github.com/adn-sas/adn-soap#readme",
   "devDependencies": {
-    "@types/request": "^2.48.1",
     "@types/bluebird": "^3.5.26",
     "@types/debug": "^4.1.2",
     "@types/express": "^4.16.1",
     "@types/lodash": "^4.14.122",
     "@types/node": "^11.11.0",
+    "@types/request": "^2.48.1",
     "@types/sax": "^1.0.1",
     "@types/uuid": "^3.4.4",
     "body-parser": "^1.15.2",
