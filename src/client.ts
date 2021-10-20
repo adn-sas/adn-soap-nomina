@@ -412,6 +412,7 @@ export class Client extends EventEmitter {
       xmlnsSoap + ' ' +
       'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ' +
       'xmlns:ser="http://schemas.datacontract.org/2004/07/ServiceSoap.UBL2._0.Models.Object" ' +
+      'xmlns:ser1="http://schemas.datacontract.org/2004/07/ServiceSoap.UBL2._0.Models.Object" ' +
       'xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" ' +
       'xmlns:tem="http://tempuri.org/" ' +
       encoding +
