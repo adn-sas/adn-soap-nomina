@@ -1,12 +1,13 @@
 {
-  "name": "@adn-sas/adn-soap",
+  "name": "@adn-sas/adn-soap-nomina",
   "version": "0.34.0",
-  "description": "Facturacion Electronica",
+  "description": "Nomina Electronica",
   "engines": {
     "node": ">=4.0.0"
   },
   "author": "Julio Ramirez <julio.ramirez@yosoft.com.co>",
   "dependencies": {
+    "@adn-sas/adn-soap": "^0.34.0",
     "bluebird": "^3.5.0",
     "concat-stream": "^2.0.0",
     "debug": "^4.1.1",
@@ -21,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adn-sas/adn-soap.git"
+    "url": "git+https://github.com/adn-sas/adn-soap-nomina.git"
   },
   "bin": {
     "build": "index.js"
@@ -49,9 +50,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adn-sas/adn-soap/issues"
+    "url": "https://github.com/adn-sas/adn-soap-nomina/issues"
   },
-  "homepage": "https://github.com/adn-sas/adn-soap#readme",
+  "homepage": "https://github.com/adn-sas/adn-soap-nomina#readme",
   "devDependencies": {
     "@types/bluebird": "^3.5.26",
     "@types/debug": "^4.1.2",
