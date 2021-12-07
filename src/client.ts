@@ -202,7 +202,8 @@ export class Client extends EventEmitter {
     const ports = service.ports;
     const def = {};
     for (const name in ports) {
-      def[name] = this._definePort(ports[name], endpoint ? endpoint : ports[name].location);
+      const httpsLocation = ports[name].location[4] !== 's' ? ports[name].location.replace('http','https') : ports[name].location;
+      def[name] = this._definePort(ports[name], endpoint ? endpoint : httpsLocation);
     }
     return def;
   }
