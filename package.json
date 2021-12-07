@@ -1,6 +1,6 @@
 {
   "name": "@adn-sas/adn-soap-nomina",
-  "version": "0.34.1",
+  "version": "0.34.2",
   "description": "Nomina Electronica",
   "engines": {
     "node": ">=4.0.0"
