@@ -1,13 +1,12 @@
 {
   "name": "@adn-sas/adn-soap-nomina",
-  "version": "0.34.2",
+  "version": "0.34.3",
   "description": "Nomina Electronica",
   "engines": {
     "node": ">=4.0.0"
   },
   "author": "Julio Ramirez <julio.ramirez@yosoft.com.co>",
   "dependencies": {
-    "@adn-sas/adn-soap": "^0.34.0",
     "bluebird": "^3.5.0",
     "concat-stream": "^2.0.0",
     "debug": "^4.1.1",
