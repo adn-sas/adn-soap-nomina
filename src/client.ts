@@ -416,6 +416,7 @@ export class Client extends EventEmitter {
       'xmlns:ser1="http://schemas.datacontract.org/2004/07/ServiceSoap.Models.Documents" ' +
       'xmlns:arr="http://schemas.microsoft.com/2003/10/Serialization/Arrays" ' +
       'xmlns:tem="http://tempuri.org/" ' +
+      'xmlns:wcf="http://schemas.datacontract.org/2004/07/WcfRecepcionSOAP" ' +
       encoding +
       this.wsdl.xmlnsInEnvelope + '>' +
       ((decodedHeaders || this.security) ?
